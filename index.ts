@@ -1,7 +1,7 @@
 import z from "zod";
 
 const Status = z.object({
-  status: z.int().min(1).max(6),
+  status: z.int().min(0).max(5),
   updated_at: z.int().nonnegative(),
 });
 
