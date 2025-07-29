@@ -1,0 +1,16 @@
+{
+  "name": "dclone-tracker",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "zod": "^4.0.13"
+  }
+}
